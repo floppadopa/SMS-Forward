@@ -14,9 +14,6 @@ import java.net.URL;
 
 public class ForwardTaskForWeb extends AsyncTask < Void, Void, Void > {
     String senderNumber;String message;String endpoint;
-
-    typescript
-    Copy
     public ForwardTaskForWeb(String senderNumber, String message, String endpoint) {
         this.senderNumber = senderNumber;
         this.message = message;
